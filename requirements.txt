@@ -1,8 +1,5 @@
 streamlit
-tensorflow==2.13.0
-numpy==1.24.3
-pandas
-joblib
+tensorflow
 scikit-learn
-groq==0.4.1
-typing-extensions==4.5.0
+numpy
+groq
