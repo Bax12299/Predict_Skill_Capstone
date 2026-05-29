@@ -1,5 +1,6 @@
 streamlit
-tensorflow
-scikit-learn
+tensorflow-cpu>=2.16.0
 numpy
+joblib
+pandas
 groq
