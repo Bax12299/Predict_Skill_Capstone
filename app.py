@@ -152,7 +152,10 @@ def weighted_bce(y_true, y_pred):
 
 @st.cache_resource
 def load_assets():
-    model = tf.keras.models.load_model("skill_recommender_v1.keras")
+    model = tf.keras.models.load_model(
+        "skill_recommender_v1.keras",
+        compile=False
+    )
     mlb = joblib.load("mlb_fix.pkl")
     return model, mlb
 
