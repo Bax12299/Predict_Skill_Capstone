@@ -3,4 +3,4 @@ tensorflow==2.13.0
 numpy
 joblib
 pandas
-groq
+groq==0.11.0
