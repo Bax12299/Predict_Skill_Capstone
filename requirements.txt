@@ -1,7 +1,7 @@
-streamlit==1.32.0
+streamlit
 tensorflow==2.20.0
-numpy==1.24.3
+numpy
 pandas
 joblib
 scikit-learn
-groq==0.4.1
+groq
