@@ -178,7 +178,7 @@ with st.sidebar:
 
     threshold    = st.slider("Minimal Confidence", 0.05, 0.50, 0.20)
     top_n        = st.slider("Jumlah Rekomendasi", 5, 25, 10)
-    show_roadmap = st.checkbox("Generate AI Roadmap", value=True)
+    show_roadmap = st.checkbox("Generate Roadmap", value=True)
 
     st.markdown("---")
     st.subheader("Data Insight")
